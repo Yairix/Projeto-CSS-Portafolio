@@ -1184,3 +1184,74 @@ footer p {
         margin-top: 20px;
     }
 }
+
+/*-------Repositories-----*/
+
+.repoName {
+    font-size: 60px;
+    color: white;
+}
+
+.archive {
+    display: block;
+    background-color:rgb(49, 9, 9);
+    width: 180px;
+    height: 20px;
+    padding: 30px 0px 30px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 6px #00000029;
+
+}
+
+.archive:hover {
+    background-color: rgba(255, 166, 0, 0.671);
+    justify-content: center;
+    transition: all 0.4s; 
+    color:black;  
+}
+
+.repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.chu {
+    background-image: url("img/back3.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+ /*----Responsive repositories----*/
+
+ @media (min-width: 376px) {
+    .repositories {
+         margin-right: 50px;
+         margin-left: 50px;
+    }
+    .chu {
+        background-image: url("img/back4.jpg");
+    }
+ }
+
+ @media (min-width: 781px) {
+    .repositories {
+         margin-right: 300px;
+         margin-left: 300px;
+    }
+    
+ }
