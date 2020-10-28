@@ -1,0 +1,1186 @@
+body {
+    width: 1919px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header {
+    display: flex;
+    width: 1919px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;   
+}
+.mini-foto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;   
+}
+.menu {
+    display: none;
+}
+nav {
+    width: 100%;
+    max-width: 500px;
+}
+nav .list-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+nav .list-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffa500;
+}
+nav .list-menu a:hover {
+    color: #632323;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.mini-foto {
+    width: 60px;
+    height: 60px;
+}
+.fondo {
+    width: 1919px;
+    height: 337px;
+    object-fit: cover;    
+}
+/*--------------Segundo----------------*/
+ .perfil-ph {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    margin-right: 593px;
+}
+.perfil {
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    border: gray 1px solid;
+}
+.icons {
+    display: flex;
+    margin-left: 570px;
+    margin-top: -25px;    
+}
+.iconn {
+    margin-right: 10px;
+}
+.iconn:hover {
+    background-color: #ffa60071;
+    border-radius: 100%;
+}
+.name span {
+    font: Bold 73px Segoe UI;
+   
+}
+.name {
+    margin-top: -150px;
+    margin-left: 848px;
+    color: rgb(99, 35, 35);
+    opacity: 1;
+}
+.junior {
+    margin-top: -40px;
+    margin-left: 848px; 
+}
+.junior span {    
+    font: 300 Italic 34px/46px Segoe UI;
+}
+.resumo{
+    width: 535px;
+    line-height: 30px;
+    margin-left: 848px;
+    font-size: 25px;
+}
+.resumo a {
+    text-decoration: none;
+    color: orange;
+}
+.resumo a:hover {
+    color: purple;
+    transition: all .3s ease;
+}
+.hi {
+    color: orange;
+    font-size: 34px;
+    margin-left: 848px;
+}
+/*-------Terceiro-------*/
+.training {
+    margin-left: 1px;
+    width: 1919px;
+    height: 333px;
+    background: rgba(255, 166, 0, 0.568) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 34px;
+    padding-bottom: -24px;
+}
+
+#um {
+    margin-top: 4px;
+    margin-left: 500px;
+    width: 230px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+
+.group01 {
+    width: 558px;
+    height: 3px;
+    text-align: left;
+    font-weight: 500; 
+    font-size: 13px;
+    color: black;
+    opacity: 1;
+}    
+
+.group02 {
+    width: 844px;
+    height: 3px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 23px;
+    color: black;
+    opacity: 1;
+}
+
+.admin {
+    display: inline-block;
+    margin-top: -33px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.socio {
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    }
+
+.career01 {
+    margin-top: -95px;
+    margin-left: 561px;
+}
+
+.career02 {
+    margin-top: -95px;
+    margin-left: 561px;
+}
+.group01 a{
+    text-decoration: none;
+    color: #632323;
+}
+.group01 a:hover {
+    color: orangered;
+    transition: all .3s ease;
+}
+/*-------Quarto-------*/
+.cursos {
+    height: 353px;
+}
+.cursos {
+    top: 939px;
+    margin-left: 1px;
+    width: 1919px;
+    height: 353px;
+    padding-top: 34px;
+    padding-bottom: -24px;
+}
+
+#dois {
+    margin-top: 4px;
+    margin-left: 480px;
+    width: 230px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+.line01 {
+    display: inline-block;
+    margin-top: -33px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.line-01 {
+    margin-top: -95px;
+    margin-left: 561px;
+}
+.line02 {
+    display: inline-block;
+    margin-top: -66px;
+    margin-left: 530px;
+    width: 8px;
+    height: 66px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.line-02 {
+    margin-top: -95px;
+    margin-left: 561px;
+}
+.line03 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 530px;
+    width: 8px;
+    height: 75px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.line-03 {
+    margin-left: 30px;
+}
+.line04 {
+    display: inline-block;
+    margin-top: -66px;
+    margin-left: 561px;
+    width: 8px;
+    height: 66px;
+    background: #632323 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.line-04 {
+    margin-top: -95px;
+    margin-left: 590px;
+}
+.list-cursos {
+    list-style: none;
+    margin-top: -85px;
+    margin-left: 541px;
+
+}
+/*-------Quinto-------*/
+.experiencia {
+    top: 939px;
+    margin-left: 1px;
+    width: 1919px;
+    height: 333px;
+    background: rgba(255, 166, 0, 0.568) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 34px;
+    padding-bottom: -24px;
+}
+
+#três {
+    margin-top: 4px;
+    margin-left: 520px;
+    width: 230px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+/*------Sexto---------*/
+.musica {
+    height: 380px;
+    justify-items: center;
+    margin-left: 553; 
+    width: 1919px;
+    padding-top: 34px;
+    padding-bottom: -24px;
+}
+#quatro {
+    margin-top: 4px;
+    margin-left: 530px;
+    width: 375px;
+    height: 73px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: black;
+    opacity: 1;
+}
+
+.vida {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.vida2 {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+.vida2 a{
+    text-decoration: none;
+    color: #632323;
+}
+.vida2 a:hover {
+    color: orange;
+    transition: all .3s ease;
+}
+
+.vida p {
+    margin-top: -125px;
+    margin-left: 30px;
+}
+
+.vida2 p {
+    margin-top: -120px;
+    margin-left: 30px;
+}
+
+.lina {
+    display: inline-block;
+    margin-top: -33px;
+    width: 8px;
+    height: 120px;
+    background: orange 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.lina2 {
+    display: inline-block;
+    margin-top: 33px;
+    width: 8px;
+    height: 120px;
+    background: orange 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.fotos {
+    display: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.fotos img {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+/*------Setimo--------*/
+.contact {
+    width: 1919px;
+    height: 500px;
+    background: #632323 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 35px;
+    margin-top: -31px;
+}
+.cont {
+    margin-top: 1px;
+    margin-left: 400px;
+    height: 73px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 55px;
+    letter-spacing: 0px;
+    color: orange;
+    opacity: 1;
+    padding-top: -34px;
+}
+.content-cont {
+    width: 390px;
+    height: 200px;
+    text-align: left;
+    font-weight: 400;
+    font-size:21px;
+    letter-spacing: 0px;
+    color: #ffa500;
+    opacity: 1;
+    margin-left: 400px;
+}
+.content-cont2 {
+    margin-left: 400px;
+    margin-top: 50px;
+    display: flex;
+}
+.content-cont2 img {
+    margin-right: 10px;
+}
+.content-cont2 img:hover{
+    background-color: #ffa60071;
+    border-radius: 100%;
+}
+.Formulario {
+    margin-left: 810px;
+    margin-top: -373px;
+}
+label {
+    width: 39px;
+    height: 17px;
+    text-align: left;
+    font-weight: Bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color:orange;
+    opacity: 1;
+}
+input {
+    width: 398px;
+    height: 34px;
+    background: rgb(255, 255, 157) 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 10px;
+    display: flex;
+}
+textarea {
+    width: 398px;
+    height: 133px;
+    background: rgb(255, 255, 157) 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 1;
+    display: flex;
+}
+.submit {
+    width: 122px;
+    height: 34px;
+    background: black 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 140px;
+    margin-top: 16px;
+    color: orange;
+    justify-content: center;
+}
+.submit:hover {
+    background: #ffa500;
+    color: black;
+}
+/*-------Oitavo-------*/
+footer {
+    background-color: black;
+    color: orange;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 8px;
+    margin-top: 50px;
+    font-size: 21px;
+}
+
+/*Responsive*/
+
+@media (max-width:780px) {
+    body {
+        width: 780px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        width: 780px;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: 10px;
+        height: 40px;
+        width: 40px;
+          
+    }
+
+    .mini-foto {
+        border-radius: 50%;
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .fondo {
+        width: 780px;
+        height: 200px;
+        object-fit: cover;    
+    }
+
+    .perfil-ph {
+        display: flex;
+        justify-content: center;
+        margin-top: -110px;
+        margin-right: 350px;
+     }
+    
+    .perfil {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        border: gray 1px solid;
+    }
+
+    .icons {
+        display: flex;
+        margin-left: 120px;
+        margin-top: -25px; 
+    }
+    
+    .iconn {
+        margin-right: 5px;
+    }
+
+    .name span {
+        font: Bold 70px Segoe UI;
+    }
+    .name {
+        margin-top: -120px;
+        margin-left: 320px;
+        color: rgb(99, 35, 35);
+        opacity: 1;
+    }
+    
+    .junior {
+        margin-top: -40px;
+        margin-left: 330px;
+        
+    }
+    
+    .junior span {
+        
+        font: 300 Italic 25px/46px Segoe UI;
+    }
+   
+   .hi {
+        font-size: 36px;
+        margin-left: 320px;
+    }
+    .resumo{
+        width: 500px;
+        line-height: 30px;
+        justify-content: center;
+        margin-left: 150px;
+        font-size: 20px;
+    }
+
+    .training {
+        width: 780px;
+        height: 270px;
+    }
+
+    #um {
+        padding-top:0 ;
+        font-weight: 300;
+        font-size: 40px;
+        margin-left: 87px;
+        margin-top: -20px;
+    }
+    .admin {
+        display: inline-block;
+        margin-top: -33px;
+        margin-left: 140px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    
+    .socio {
+        display: inline-block;
+        margin-top: 33px;
+        margin-left: 140px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        }
+    
+    .career01 {
+        width: 320px;
+        margin-top: -95px;
+        margin-left: 160px;
+    }
+    
+    .career02 {
+        margin-top: -95px;
+        margin-left: 160px;
+    }
+/*quarta parte*/
+    .cursos {
+        display: wrap;
+        flex-wrap: wrap;
+        margin-left: 1px;
+        width: 780px;
+        height: 370px;
+        padding-top: 34px;
+        padding-bottom: -24px;
+    }
+
+    #dois {
+        padding-top:0 ;
+        font-weight: 300;
+        font-size: 40px;
+        margin-left: 70px;
+        margin-top: -20px;
+    }
+    .line01 {
+        display: inline-block;
+        margin-top: -30px;
+        margin-left: 140px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .line-01 {
+        margin-left: 160px;
+    }
+    .line {
+        display: inline-block;
+        margin-top: -50px;
+        margin-left: 150px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    .line02 {
+        display: inline-block;
+        margin-top: -66px;
+        margin-left: 220px;
+        width: 8px;
+        height: 66px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .line-02 {
+        margin-top: -95px;
+        margin-left: 250px;
+    }
+    .line03 {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 140px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .line-03 {
+        margin-left: 20px;
+    }
+
+    .line04 {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 8px;
+        height: 66px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .line-04 {
+        margin-top: -95px;
+        margin-left: 20px;
+    }
+    /*Quinta parte*/
+    .experiencia {
+        width: 780px;
+        height: 280px;
+    }
+    #três {
+        padding-top:10px;
+        font-weight: 300;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    /*Sexta parte*/
+    .musica {
+        height: 380px;
+        justify-items: center;
+        margin-left: 140; 
+        width: 780px;
+        padding-top: 34px;
+        padding-bottom: -24px;
+    }
+    #quatro {
+        margin-top: 4px;
+        margin-left: 140px;
+        width: 375px;
+        height: 73px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 0px;
+        color: black;
+        opacity: 1;
+    }
+    .vida {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    .vida2 {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    .vida p {
+        margin-top: -140px;
+        margin-left: 30px;
+    }
+    
+    .vida2 p {
+        margin-top: -120px;
+        margin-left: 30px;
+    }
+    .lina {
+        display: inline-block;
+        margin-top: -33px;
+        width: 8px;
+        height: 130px;
+    }
+    /*Setima parte*/
+    .contact {
+        width: 780px;
+        height: 500px;
+        padding-top: 35px;
+        margin-top: -31px;
+    }
+    .cont {
+        margin-left: 150px;
+    }
+    .content-cont {
+        width: 300px;
+        margin-left: 40px;
+    }
+    
+    .content-cont2 {
+        margin-left: 40px;
+        margin-top: 50px;
+        display: flex;
+    }
+    .content-cont2 img {
+        margin-right: 10px;
+    }
+    .Formulario {
+        margin-left: 350px;
+        margin-top: -373px;
+    }
+    input {
+        width: 300px;
+        height: 34px;
+        background: rgb(255, 255, 157) 0% 0% no-repeat padding-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        opacity: 1;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    textarea {
+        width: 300px;
+        height: 100px;
+        background: rgb(255, 255, 157) 0% 0% no-repeat padding-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        opacity: 1;
+        display: flex;
+    }
+    .submit {
+        margin-left: 80px;
+    }
+    footer { 
+        height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    footer p {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    
+}
+
+/*responsive 375*/
+
+@media (max-width:375px){
+    body {
+        width: 375px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        width: 375px;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: 10px;
+        height: 40px;    
+    }
+
+    .mini-foto {
+        border-radius: 50%;
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .fondo {
+        width: 375px;
+        height: 150px;
+        object-fit: cover;    
+    }
+
+    .perfil-ph {
+        display: flex;
+        justify-content: center;
+        margin-top: -110px;
+     }
+    
+    .perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        border: gray 1px solid;
+        margin-left: 130px;
+    }
+
+    .icons {
+        display: flex;
+        margin-left: 140px;
+        margin-top: -40px; 
+    }
+    
+    .iconn {
+        margin-right: 5px;
+    }
+
+    .name span {
+        font: Bold 40px Segoe UI;
+    }
+    .name {
+        margin-top: 0;
+        margin-left: 80px;
+        color: rgb(99, 35, 35);
+        opacity: 1;
+    }
+    
+    .junior {
+        margin-top: -40px;
+        margin-left: 80px;
+    }
+    
+    .junior span {
+        font: 300 Italic 15px/46px Segoe UI;
+    }
+   
+   .hi {
+    font-size: 28px;
+    margin-left: 80px;
+    }
+    .resumo{
+        width: 250px;
+        line-height: 20px;
+        justify-content: center;
+        margin-left: 80px;
+        font-size: 18px;
+    }
+/*segunda parte*/
+    .training {
+        display: wrap;
+        flex-wrap: wrap;
+        width: 375px;
+        height:300px;
+    }
+    #um {
+        padding-top: 0;
+        font-weight: 300;
+        font-size: 30px;
+        margin-left: -55px;
+    }
+    .admin {
+        display: inline-block;
+        margin-top: -33px;
+        margin-left: 10px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    
+    .socio {
+        display: inline-block;
+        margin-top: 33px;
+        margin-left: 10px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        }
+    
+    .career01 {
+        width: 320px;
+        margin-top: -95px;
+        margin-left: 30px;
+    }
+    
+    .career02 {
+        margin-top: -95px;
+        margin-left: 30px;
+    }
+/*tercera parte*/
+    .cursos {
+        display: wrap;
+        flex-wrap: wrap;
+        margin-left: 1px;
+        width: 375px;
+        height: 450px;  
+    }
+
+    #dois {
+        padding-top:0 ;
+        font-weight: 300;
+        font-size: 30px;
+        margin-left: -70px;
+    }
+    
+    .line01 {
+        margin-left: 10px;
+    }
+    .line-01 {
+        margin-left: 30px;
+    }
+    .line {
+        display: inline-block;
+        margin-top: -50px;
+        margin-left: 150px;
+        width: 8px;
+        height: 75px;
+        background: #632323 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    .line02 {
+        margin-top: 20px;
+        margin-left: -20px;
+        height: 75px;
+    }
+    .line-02 {
+        margin-top: -95px;
+        margin-left: 5px;
+    }
+    .line03 {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .line-03 {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .line-03 .group02 {
+       width: 310px;
+       margin-top:-5px;
+       font-size: 15px;
+    }
+    .line04 {
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 0px;
+        height: 75px;
+    }
+    .line-04 {
+        margin-top: -95px;
+        margin-left: 20px;
+    }
+ /*Quinta parte*/
+    .experiencia {
+        width: 375px;
+        height: 280px;
+    }
+    #três {
+        padding-top:10px;
+        font-weight: 300;
+        font-size: 30px;
+        margin-left: -45px;
+        margin-top: -20px;
+    }
+    .musica {
+        height: auto;
+        justify-items: center;
+        margin-left: 140; 
+        width: 375px;
+        padding-top: 34px;
+        padding-bottom: -24px;
+    }
+    #quatro {
+        margin-top: 4px;
+        margin-left: 50px;
+        width: 320px;
+        text-align: left;
+    }
+    .vida {
+        width: auto;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    .vida2 {
+        width: auto;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    .vida p {
+        margin-top: -235px;
+        margin-left: 30px;
+    }
+    
+    .vida2 p {
+        margin-top: -190px;
+        margin-left: 30px;
+    }
+    .lina {
+        display: inline-block;
+        margin-top: -50px;
+        width: 8px;
+        height: 230px;
+    }
+    .lina2 {
+        display: inline-block;
+        margin-top: 33px;
+        width: 8px;
+        height: 190px;
+    }
+/*Setima parte*/
+   .contact {
+        width: 375px;
+        height: auto;
+        padding-top: 35px;
+        margin-top: -31px;
+        padding-bottom: 30px;
+    }
+    .cont {
+        margin-left: 120px;
+    }
+    .content-cont {
+        width: 320px;
+        margin-left: 40px;
+        margin-top: -40px;
+    }
+
+    .content-cont2 {
+        margin-left: 80px;
+        margin-top: 0px;
+    }
+    .content-cont2 img {
+        width: 60px;
+        height: 60px;
+    }
+    .Formulario {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    footer { 
+        height: 50px;
+    }
+    footer p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
